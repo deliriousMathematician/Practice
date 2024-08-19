@@ -1,0 +1,13 @@
+# Rules of Game
+# Two Neighbors alive + cell alive = cell dead
+# [1, 1, 1] == [0]
+# Two Neighbors alive + cell dead = cell alive
+# [1, 0, 1] == [1]
+# One Neighbor alive + cell alive = cell alive
+# [1, 1, 0] == [1]
+# One Neighbor alive + cell dead = cell dead
+# [1, 0, 0] == [0]
+# Two Neighbors dead + cell alive = cell dead
+# [0, 1, 0] == [0]
+# Two Neighbors dead + cell dead = cell alive
+# [0, 0, 0] == [1]
